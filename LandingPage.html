@@ -5,24 +5,94 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Landing page as freeCodeCamp certification project">
+<script src="https://kit.fontawesome.com/ff43c1d320.js" crossorigin="anonymous"></script>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
 <title>Product Page</title>
 </head>
 <body>
    <header id="header">
-        <img id="header-img"> <!--put a logo here-->
+        <img id="header-img" src="Logo.jpg"> <!--put a logo here-->
         <nav id="nav-bar">
             <ul>
-                <li><a class="nav-link" href="#story">STORY</a></li>
-                <li><a class="nav-link" href="#photos">PHOTOS</a></li>
-                <li><a class="nav-link" href="#photos">PHOTOS</a></li>
+                <li><a class="nav-link" href="#features">FEATURES</a></li>
+                <li><a class="nav-link" href="#the-teacher">THE TEACHER</a></li>
+                <li><a class="nav-link" href="#plans">PLANS</a></li>
             </ul>
         </nav>
+    </header>
         <main>
+            <section id="hero">
+                <h2>Do you want to start making your own games? We can help you!</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input id="email" type="email" placeholder="Insert your email address here" required>
-                <input id="submit" type="submit" value="Submit">
+                <input id="email" type="email" placeholder="Insert your email address" required>
+                <input id="submit" type="submit" value="Get started">
             </form>
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe><!--put a video here-->
+        </section>
+        <div class="container">
+            <section id="features">
+                <div class="icon">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="desc">
+                    <h2>One-on-one classes</h2>
+                    <p>Classes focused on your needs and projects.</p>
+                </div>
+                <div class="features">
+                    <div class="icon">
+                        <i class="fa-regular fa-keyboard"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>From zero to a final game</h2>
+                        <p>Know nothing about coding? We can teach you how to make a game even if you never coded before.</p>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="icon">
+                        <i class="fa-solid fa-desktop"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Online classes</h2>
+                        <p>Learn from home, no need to take crowded buses or trains.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="the-teacher"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe></section><!--put a video here-->
+            <section id="plans">
+                <div class="product" id="one-class">
+                    <div class="prod">One class</div>
+                    <h2>$40</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="select">Select</button>
+                </div>
+                <div class="product" id="five-classes">
+                    <div class="prod">Five classes</div>
+                    <h2>$180</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="select">Select</button>
+                </div>
+                <div class="product" id="ten-classes">
+                    <div class="prod">Ten classes</div>
+                    <h2>$350</h2>
+                    <ol>
+                        <li>Lorem ipsum.s</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="select">Select</button>
+                </div>
+            </section>
+        </div>
         </main>
    </header> 
 </body>
