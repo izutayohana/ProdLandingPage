@@ -22,7 +22,7 @@
   #header-img {
     width: 200px;
   }
-  
+
   nav > ul {
     display: flex;
     justify-content: space-evenly;
@@ -49,4 +49,51 @@
         color: #000000;
         background-color: #c5c2c41f;
         cursor: pointer;
+      }
+
+      main {
+      padding-top: 70px;
+      text-align: center;
+      }
+
+      #features {
+        padding-top: 15px;
+      }
+
+      ol > li {
+        list-style-type: none;
+      }
+     
+  
+      .icon {
+        font-size: 2rem;
+        border: 1px solid black;
+        grid-area: icons;
+      }
+
+      .desc {
+        border: 1px solid black;
+        grid-area: descri;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: auto; 
+        grid-template-areas: 
+        "icons descri"
+        "icons descri"
+        "icons descri";
+
+      }
+
+      .product {
+        margin-top: 50px;
+        display: inline-grid;
+        border: 1px solid black;
+      }
+      
+      ol {
+        margin: 0;
+        padding: 0 20px;
       }
